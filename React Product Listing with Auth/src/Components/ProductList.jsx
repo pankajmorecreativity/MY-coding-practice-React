@@ -9,6 +9,7 @@ const ProductList = ({products=[]}) => {
         <ProductItem key={item.id} {...item}/>
       )}
     </div>;
+    
 };
 
 // export
